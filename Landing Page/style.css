@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:100,300,400,500,600,700,800,900&display=swap');
+
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+.nav-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.nav-flex-row li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+  color: black;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-intro {
+  height: 820px;
+  background-image: url("https://res.cloudinary.com/du30hnrod/image/upload/v1720814770/Priv/sow7qp28ux5vpyjzafgc.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-intro h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.section-intro header {
+  display: flex;
+  flex: 4;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-to-book-wrapper {
+  flex: 1;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3c0;
+  padding: 50px 30px;
+}
+
+.link-to-book {
+  color: #ffffff;
+  display: block;
+  border: 2px solid #ffffff;
+  padding: 5px 10px;
+}
+
+a.link-to-book:hover {
+  background-color: #0e0d0d;
+  color: #95999e;
+  text-decoration: none;
+}
+
+.about-section p,
+.about-section h3 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-size: 1.8em;
+}
+
+.carousel-inner {
+  height: 700px;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 30px 20px;
+}
+
+.btn.btn-primary {
+  color: #ffffff;
+  background-color: #95999e;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+  border: 0;
+}
+
+.btn.btn-primary:hover {
+  background-color: #747474;
+}
+
+.opening-time,
+.contact-adress {
+  flex: 1;
+  margin: 30px 20px;
+  font-size: 1.2em;
+}
+
+.form-group p {
+  font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+  display: block;
+}
+.footer-card-text {
+  color: black;
+  font-size: 20px;
+}
+.footer-card-copyright-container {
+  text-align: center;
+  color: white;
+  background-color: grey;
+  padding: 10px;
+}
